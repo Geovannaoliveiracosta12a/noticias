@@ -180,6 +180,26 @@ nav.desktop {
 }
 
 @media (min-width: 1110px) {
+    header > button {
+        display: none;
+    }
+
+    header .desktop {
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    header .desktop a {
+        font-size: 0.9375rem;
+        line-height: 1.675;
+        text-decoration: none;
+        color: var(--gunmetal);
+    }
+
+    header .desktop a:hover{
+        color: var(--vernillion);
+    }
+
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -208,21 +228,5 @@ nav.desktop {
 
     .segunda-secao h2{
         font-size: 2.5rem;
-    }
-    
-    header > button {
-        display: none;
-    }
-
-    header .desktop {
-        display: flex;
-        gap: 2.5rem;
-    }
-
-    header .desktop a {
-        font-size: 0.9375rem;
-        line-height: 1.675;
-        text-decoration: none;
-        color: var(--gunmetal);
     }
 }
