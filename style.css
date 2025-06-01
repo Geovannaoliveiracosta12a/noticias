@@ -41,6 +41,7 @@ header button {
     border: none;
     background: none;
     width: fit-content;
+    cursor: pointer;
 }
 
 header nav.mobile {
@@ -173,6 +174,10 @@ nav.desktop {
     margin-block: 0.6rem;
 }
 
+.terceira-secao a{
+    text-decoration: none;
+}
+
 .terceira-secao p {
     font-size: 0.9375rem;
     line-height: 1.625rem;
@@ -226,7 +231,23 @@ nav.desktop {
         font-size: 3.5rem;
     }
 
+    .primeiraSecao button:hover{
+        background-color: var(--dark-blue);
+        cursor: pointer;
+        transition: 0.7s;
+    }
+
     .segunda-secao h2{
         font-size: 2.5rem;
     }
+
+    .terceira-secao{
+        display: flex;
+        grid-column: 1/4;
+    }
+
+    .terceira-secao h2:hover{
+        color: var(--vernillion);
+    }
+
 }
