@@ -188,8 +188,28 @@ nav.desktop {
 
     .primeiraSecao {
         grid-column: 1 / 3;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.75rem;
     }
 
+    .primeiraSecao picture{
+        grid-column: 1/3;
+    }
+
+    .primeiraSecao img{
+        margin: 0;
+    }
+
+    .primeiraSecao h1{
+        font-size: 3.5rem;
+    }
+
+    .segunda-secao h2{
+        font-size: 2.5rem;
+    }
+    
     header > button {
         display: none;
     }
